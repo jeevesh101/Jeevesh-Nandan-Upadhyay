@@ -40,8 +40,8 @@ const ContactSection = () => {
 
         <div className="flex items-center justify-center gap-5 mt-8">
           {[
-            { icon: Github, href: "https://github.com/jeevesh", label: "GitHub" },
-            { icon: Linkedin, href: "https://linkedin.com/in/jeevesh", label: "LinkedIn" },
+            { icon: Github, href: "https://github.com/jeevesh101", label: "GitHub" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/jeevesh-nandan-upadhyay-0873b3204", label: "LinkedIn" },
             { icon: Mail, href: "mailto:jeeveshnandan.upadhyay@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a
