@@ -3,6 +3,15 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const projects = [
   {
+    title: "EVEFY",
+    subtitle: "B2C Event Services Marketplace",
+    tags: ["Next.js", "React Native", "Node.js", "TypeScript", "PostgreSQL", "Stripe Connect", "Redis", "Elasticsearch", "AWS"],
+    description:
+      "Architecting a B2C event services marketplace enabling customers to discover, compare, and book verified event managers. Stripe Connect for split-payment processing with escrow & automated payouts. Elasticsearch for sub-100ms faceted search, Redis-backed availability locking, Socket.io real-time chat, and Turborepo monorepo deployed on AWS ECS.",
+    highlight: "Under Development",
+    year: "2025–Present",
+  },
+  {
     title: "IMBIBE",
     subtitle: "Knowledge-First Social Platform",
     tags: ["React Native", "Node.js", "Express", "TypeScript", "PostgreSQL", "Drizzle ORM", "Redis", "Docker"],
