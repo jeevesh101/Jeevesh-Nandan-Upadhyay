@@ -23,8 +23,7 @@ const HeroSection = () => {
             <span className="text-gradient">Upadhyay</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            AI/ML Engineer & Full-Stack Developer building patented, production-grade intelligent systems with up to{" "}
-            <span className="text-primary font-semibold">95% accuracy</span>.
+            AI/ML Engineer & Full-Stack Developer building patented, production-grade intelligent systems.
           </p>
 
           {/* CTA */}
@@ -70,7 +69,7 @@ const HeroSection = () => {
               <img
                 src={profilePhoto}
                 alt="Jeevesh Nandan Upadhyay"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-[center_25%] scale-[1.8]"
               />
             </div>
             {/* Decorative ring */}
