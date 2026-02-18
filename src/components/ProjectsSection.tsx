@@ -10,6 +10,7 @@ const projects = [
       "Architecting a B2C event services marketplace enabling customers to discover, compare, and book verified event managers. Stripe Connect for split-payment processing with escrow & automated payouts. Elasticsearch for sub-100ms faceted search, Redis-backed availability locking, Socket.io real-time chat, and Turborepo monorepo deployed on AWS ECS.",
     highlight: "Under Development",
     year: "2025–Present",
+    featured: true,
   },
   {
     title: "IMBIBE",
