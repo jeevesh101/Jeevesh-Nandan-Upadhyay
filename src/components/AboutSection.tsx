@@ -1,4 +1,5 @@
 import { GraduationCap, MapPin, Award } from "lucide-react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const stats = [
   { value: "8.12", label: "CGPA", sub: "VIT" },
@@ -7,8 +8,9 @@ const stats = [
 ];
 
 const AboutSection = () => {
+  const { ref, isVisible } = useScrollReveal();
   return (
-    <section id="about" className="section-padding relative">
+    <section ref={ref} id="about" className={`section-padding relative transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
       <div className="max-w-7xl mx-auto">
         <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
           <span className="text-primary font-mono">01.</span> About Me

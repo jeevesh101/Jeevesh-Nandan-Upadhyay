@@ -1,8 +1,10 @@
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const ContactSection = () => {
+  const { ref, isVisible } = useScrollReveal();
   return (
-    <section id="contact" className="section-padding">
+    <section ref={ref} id="contact" className={`section-padding transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
           <span className="text-primary font-mono">05.</span> Get In Touch

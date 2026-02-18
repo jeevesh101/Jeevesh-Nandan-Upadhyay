@@ -1,4 +1,5 @@
 import { Trophy, Medal, Plane, ScrollText } from "lucide-react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const achievements = [
   {
@@ -28,8 +29,9 @@ const achievements = [
 ];
 
 const AchievementsSection = () => {
+  const { ref, isVisible } = useScrollReveal();
   return (
-    <section id="achievements" className="section-padding grid-bg">
+    <section ref={ref} id="achievements" className={`section-padding grid-bg transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
       <div className="max-w-7xl mx-auto relative z-10">
         <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
           <span className="text-primary font-mono">04.</span> Achievements
