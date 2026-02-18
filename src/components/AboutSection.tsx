@@ -1,8 +1,7 @@
 import { GraduationCap, MapPin, Award } from "lucide-react";
 
 const stats = [
-  { value: "8.12", label: "CGPA", sub: "VIT Chennai" },
-  { value: "95%", label: "Accuracy", sub: "EmotiGen" },
+  { value: "8.12", label: "CGPA", sub: "VIT" },
   { value: "2", label: "Patents", sub: "Filed" },
   { value: "1st", label: "SIH 2023", sub: "National Win" },
 ];
@@ -20,7 +19,7 @@ const AboutSection = () => {
           <div className="lg:col-span-3 space-y-5">
             <p className="text-muted-foreground text-lg leading-relaxed">
               I'm a Computer Science & Business Analytics graduate from{" "}
-              <span className="text-foreground font-medium">Vellore Institute of Technology (VIT), Chennai</span> with an Integrated MTech (Dual Degree).
+              <span className="text-foreground font-medium">Vellore Institute of Technology (VIT)</span> with an Integrated MTech (Dual Degree).
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
               My passion lies in building <span className="text-primary">scalable, data-driven intelligent systems</span> — from emotion-aware AI platforms to medical imaging pipelines processing 1.5M+ CT scans. I thrive at the intersection of AI/ML and full-stack development.
