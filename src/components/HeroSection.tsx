@@ -40,6 +40,13 @@ const HeroSection = () => {
             >
               Get in Touch
             </a>
+            <a
+              href="/resume.pdf"
+              download
+              className="px-7 py-3 font-heading text-sm font-semibold rounded-lg border border-primary/40 text-primary hover:bg-primary/10 transition-colors"
+            >
+              Download Resume
+            </a>
           </div>
 
           {/* Socials */}
